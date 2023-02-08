@@ -1,5 +1,5 @@
 # jegyzet
 
-Hálózatok
-Linux
-Virtualbox
+Hálózatok  
+Linux  
+Virtualbox  
