@@ -1,0 +1,21 @@
+# A linux könyvtárszerkezete
+A Windows-tól eltérően itt nem 1-1 betűjellel ellátott partíciók alatt helyezkednek el a file-ok a file-rendszerben. A linux (és unix) szemlélet szerint mindent egy gyökér könyvtár ( / ) alá csoportosítunk. Röviden összefoglalva ilyen vagy nagyon hasonló könyvtárszerkezetzet találunk egy alap telepítés után:
+- / - A root könyvtár, innen indul minden file és könyvtár elérési útvonala
+- /bin - *(binary)*; rendszerint ide települnek a futtatni kívánt programok bináris állományai.
+- /boot - A boot folyamathoz szükséges programok és konfigurációs állományai vannak itt *(pl: kernel, boot loader - GRUB, stb)*
+- /dev - *(devices)*; A futó rendszer eszköz file-jai *(pl. diszkek, USB eszközök, monitorok stb)*, tartalma csak futásidőben értelmezhető *(kikapcsolt állapotban a tartalma üres)*
+- /etc - A rendszerhez és a szolgáltatásokhoz kapcsolódó konfigurációs állományok gyűjtőhelye, ezt igen gyakran használjuk.
+- /home - A rendszerben létező felhasználók home mappáinak gyűjtőhelye.
+- /lib - *(library)*; Rendszermodulok, software könyvtárak gyűjtőhelye.
+- /mnt - *(mount)*; Jellemzően eszközök csatolási pontja, ideiglenes diszket, USB kulcsot, hálózati meghajtót szoktunk ez alá csatolni.
+- /media - Disztribúciótól függően az /mnt-hez hasonlóan USB diszket, CD-ROM-ot szokott a rendszer ide automatikusan felcsatolni.
+- /opt - *(optional)*;  Opcionális software telepítési könyvtár; régebben jellemzően ide telepítették a forráskódból fordított programokat.
+- /proc - *(process)* A futó rendszerről találunk itt információkat, tartalma csak futásidőben értelmezhető *(kikapcsolt állapotban a tartalma üres)*
+- /root - A root user home könyvtára
+- /sbin - A /bin-hez hasonlóan futtatható állományokat tartalmaz, jellemzően adminisztrációs eszközök.
+- /tmp - Ideiglenes file tárolásra használjuk, jellemzően ezt a mappát mindenki tudja írni és olvasni, időközönként illik takarítani.
+- /run - futó folyamatok adatait tartalmazza futásidőben
+- /srv - szerverfolyamatok megosztásait szokás ide rakni
+- /sys eszközök adatait tartalmazza futásidőben
+- /usr - dokumentációk és egyéb architektúra független adatok tára
+- /var - logok és ideiglenes tárolás, sok írás történik ide
