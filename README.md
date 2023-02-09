@@ -1,6 +1,7 @@
 # Progmasters DevOps képzés - felkészülési jegyzetek
 
 Hálózatok  
+- [Hálózatok jegyzet](https://github.com/PM-DevOps-felkeszito/jegyzet/tree/master/halozatok)
 
 Linux  
 - [Linux bevezető](https://github.com/PM-DevOps-felkeszito/jegyzet/blob/master/linux/Linux_bevezeto.md)
