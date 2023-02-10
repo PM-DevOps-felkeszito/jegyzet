@@ -115,35 +115,33 @@ A csomagunk pattog a hálózati eszközök között amíg a kiszolgálóig nem �
     - egyszerű szótár, tárolja a mac addresseket és a hozáájuk tartozó címet  
     - Switchek esetén az eszköz portjának azonosítóját is a megfelelő mac addresshez.  
     - automatikusan működik (lásd kép), tartalma változtatható, ha szükséges (ritka)  
-* Terminál parancs: *arp* pl: W:`arp -a` L:`arp a`
-  
+* Terminál parancs: *arp* pl: W:`arp -a` L:`arp a`  
 ![](./.pics/arppelda2.png)  
 
-  
-# Internet protokoll  (IP)
+## Internet protokoll  (IP)
 * OSI modell 3. rétege
 * Logikai címzés, útvonal (Route) meghatározás
-* IP címek  
-* Gateway
 * IP verziók: IPv4, IPv6  
+* IP címek  
+![](./.pics/ip1.png)  
 * Privát és publikus IP tartományok  
-* Subnetek  
-* Portok    
+![](./.pics/privip1.png)  
+* Subnetek - CIDR range, [subnet calculator](https://www.calculator.net/ip-subnet-calculator.html)  
+* Gateway - amerre a csomag megy, ha a cél kívül esik a saját IP tartományunkból.
+* Terminál parancsok: `ping`, `ip a`, `route`, `traceroute`  
   
 ## TCP 
-* OSI modell leképezése 4 rétegben
-* IP címek
-* Privát és publikus IP tartományok
-* Subnetek
+* OSI modell leképezése 4 rétegben  
+![](./.pics/tcp1.png)  
 * Szállítási (Transport) réteg
-* TCP/UDP/ICMP protokollok
-* TCP 3-way handshake
+* TCP/UDP/ICMP protokollok  - TCP - ellenőrzött, UDP - nem ellenörzőtt  
+![](./.pics/tcp3.png)    
+* TCP 3-way handshake  
+![](./.pics/tcp2.png)  
+* Portok    
+![](./.pics/port1.png)  
 
-8. **IT/IP matek**  
-    * 2-es számrendszer
-    * IP cím
-    * subnet mask (ip calculator)  
-    * latency, speed  
+
 
 
 
